@@ -1,24 +1,19 @@
 html {
-  box-sizing: border-box;
-
   font-family: "Noto Sans", sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 .btn {
   border-style: none;
   text-decoration: none;
   background-color: transparent;
-  color: #000;
+  color: #8bc9d9;
 }
 
 .btn:hover {
-  background-color: #ddd;
+  background-color: #e2e2e2;
   color: #005e76;
+  border-color: #000;
 }
 
 .ja {
@@ -29,20 +24,34 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-.btn-ghost {
-  color: #0084a6;
-  border-color: #8bc9d9;
-  border: 2px solid;
-  border-radius: 3px;
-  text-decoration: none;
-}
-
 .btn-ghost:hover {
   color: #005e76;
+  background-color: #0084a6;
+}
+
+hr {
+  border-color: #e2e2e2;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+.btn-ghost {
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: #8bc9d9;
 }
 
 @media only screen and (min-width: 60em) {
+
   .wrapper {
     max-width: 38em;
   }
+
 }
